@@ -1,5 +1,5 @@
 """
-ASGI config for django_files project.
+ASGI config for django_filess project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -25,16 +25,16 @@ from django.core.asgi import get_asgi_application
 
 
 """
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_files.settings'):
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_filess.settings'):
 
 Acesta este un apel pentru a seta variabila de mediu DJANGO_SETTINGS_MODULE pentru a 
 specifica modulul de setări Django care trebuie încărcat pentru această aplicație. În 
-cazul de față, acesta este setat la "django_files.settings", ceea ce înseamnă că setările 
-aplicației sunt citite din modulul "settings.py" din directorul "django_files".
+cazul de față, acesta este setat la "django_filess.settings", ceea ce înseamnă că setările 
+aplicației sunt citite din modulul "settings.py" din directorul "django_filess".
 
 """
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_files.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_filess.settings')
 
 
 """
