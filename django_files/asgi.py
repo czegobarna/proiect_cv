@@ -1,5 +1,5 @@
 """
-ASGI config for resume_demo project.
+ASGI config for django_files project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -25,16 +25,16 @@ from django.core.asgi import get_asgi_application
 
 
 """
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'resume_demo.settings'):
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_files.settings'):
 
 Acesta este un apel pentru a seta variabila de mediu DJANGO_SETTINGS_MODULE pentru a 
 specifica modulul de setări Django care trebuie încărcat pentru această aplicație. În 
-cazul de față, acesta este setat la "resume_demo.settings", ceea ce înseamnă că setările 
-aplicației sunt citite din modulul "settings.py" din directorul "resume_demo".
+cazul de față, acesta este setat la "django_files.settings", ceea ce înseamnă că setările 
+aplicației sunt citite din modulul "settings.py" din directorul "django_files".
 
 """
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'resume_demo.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_files.settings')
 
 
 """

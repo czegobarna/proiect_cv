@@ -1,5 +1,5 @@
 """
-WSGI config for resume_demo project.
+WSGI config for django_files project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -37,13 +37,13 @@ from django.core.wsgi import get_wsgi_application
 
 """
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'resume_demo.settings'): Aici se configurează setările aplicației
-Django. Se stabilește modulul de setări pentru Django, care este specificat ca al doilea argument 'resume_demo.settings'.
-Acest lucru indică că setările aplicației Django sunt definite în fișierul settings.py din directorul resume_demo.
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_files.settings'): Aici se configurează setările aplicației
+Django. Se stabilește modulul de setări pentru Django, care este specificat ca al doilea argument 'django_files.settings'.
+Acest lucru indică că setările aplicației Django sunt definite în fișierul settings.py din directorul django_files.
 
 """
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'resume_demo.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_files.settings')
 
 """
 
